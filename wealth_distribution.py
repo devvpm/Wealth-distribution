@@ -2,7 +2,7 @@ import random
 import json
 import time
 
-# We distribute wealth amont 10 people equally. Give 10$ each.
+# We distribute wealth among 10 people equally. Give 10$ each.
 people_wealth = {
     "person_1": 10,
     "person_2": 10,
