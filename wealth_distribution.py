@@ -17,7 +17,7 @@ people_wealth = {
 }
 
 round = 1
-while round <= 30:
+while round <= 200:
 
     # Betting starts in a round robin fashion.
     for person, persons_wealth in people_wealth.items():
@@ -61,5 +61,3 @@ while round <= 30:
     print(json.dumps(people_wealth, indent=4, sort_keys=False))
     round = round + 1
 
-    # Bettil thottavarkku oru shoda kudikkan ulla time :)
-    time.sleep(0.5)
